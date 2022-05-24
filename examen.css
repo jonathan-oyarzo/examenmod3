@@ -1,0 +1,56 @@
+
+.square {
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: grey;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+body {
+ background-color: #232323;
+}
+
+h1 {
+    text-align: center;
+    color : white;
+}
+
+#message { 
+    color : #000000;
+    float: inline; 
+    text-align: center;
+    font-size: large;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected {
+ 
+    background-color: rgb(50, 50, 92) ;
+}
+#reset{
+    float: left;  
+}
+
+button {
+    border-radius: 1px;
+    background-color: rgb(28, 71, 64);
+    border-style: dotted;
+    border-color: rgb(194, 199, 202);
+    margin: 0 auto;
+    font-family: 'Trebuchet MS';
+    font-size: large;
+    float: right; 
+}
